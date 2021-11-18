@@ -83,7 +83,7 @@
   align-self:flex-end;
   z-index: 1; */
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
   right: 0;
   z-index: 1;
 
@@ -173,12 +173,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-bottom: 60px;
   
 }
 
-.section-subtitle{
-  margin-bottom: 60px;
-}
 .table{
   /* position: absolute; */
   display: flex;
@@ -187,7 +185,7 @@
   justify-content: space-between;
   align-content: space-between;
   margin-bottom: 100px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .table__cell{
@@ -304,7 +302,7 @@
   justify-content: space-between;
   align-content: space-between;
   margin-bottom: 90px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
 
 .table__cell_theme_dark{
