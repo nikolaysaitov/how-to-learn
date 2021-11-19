@@ -13,13 +13,13 @@
 .header {
   position: relative;
   display: flex;
+  align-items: center;
   height: 100vh;
   max-width: 1680px;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
   justify-content: space-between;
-  
 }
 
 .logo {
@@ -36,14 +36,11 @@
 }
 
 .header__title{
-  display: flex;
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
-  flex-direction: row;
-  align-items: center;
   z-index: 2;
 }
 
@@ -80,24 +77,18 @@
   position: absolute;
   top: 64px;
   right: 0;
-  flex-direction: row-reverse;
-  align-self:flex-end;
   z-index: 0;
 }
  
 .description{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin-top: 100px;
 }
 
 .two-columns{
   display: flex;
-  width: 80%;
-  margin-top: 100px;
-  flex-direction: row;
   justify-content: space-between;
-  min-height: 300px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .two-columns__brief{
@@ -186,21 +177,19 @@
 }
 
 .feynman{
+  position: relative;
   height: 890px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: #f2f2f2 url(/images/feynman.png) bottom left;
   background-repeat:no-repeat;
   left: 0px;
   bottom: 0px;
-  position: relative;
   z-index: 1;
 }
 
 .feynman__title{
   width: 648px;
-  margin-top: 100px;
+  margin: auto;
+  padding-top: 100px;
   margin-bottom: 70px;
   text-align: center;
   line-height: 1.15;
@@ -210,23 +199,21 @@
 }
 
 .feynman__subtitle{
+  margin: 0 auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
-  margin: 0;
 }
 
 .feynman__link{
-  text-align: center;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   z-index: 2;
-  align-self: end;
-  margin-right: 48px;
+  right: 48px;
   position: absolute;
   top: 50%;
 }
@@ -252,35 +239,21 @@
 }
 
 .table_theme_dark{
-  display: flex;
-  max-width: 1100px;
-  margin: auto;
-  z-index: 1;
-  justify-content: space-between;
-  align-content: space-between;
   margin-bottom: 90px;
-  flex-wrap: wrap;
+  z-index: 1;
 }
 
 .table__cell_theme_dark{
   width: 200px;
-  margin-bottom: 0px;
   margin-top: 80px;
 }
 
 .table__heading_theme_dark{
-  line-height: 1.15;
-  font-size: 24px;
   color: white;
-  z-index: 1;
 }
 
 .table__text_theme_dark{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   color: white;
-  z-index: 1;
 }
 
 .kaufman__triangle{
@@ -344,10 +317,7 @@
   padding-left: 0px;
   margin-top: 20px;
   margin-bottom: 16px;
-}
-
-li{
-  display: block;
+  list-style: none;
 }
 
 .footer__column-link{
