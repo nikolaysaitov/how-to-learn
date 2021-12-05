@@ -72,17 +72,25 @@
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__logo/resources__logo-zone.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo/_arzamas/resources__logo_arzamas.css);
+@import url(../blocks/resources/__logo/_n1/resources__logo_n1.css);
+@import url(../blocks/resources/__logo/_strelka/logo_strelka.css);
+@import url(../blocks/resources/__logo/_polka/resources__logo_polka.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
-@import url(../blocks/footer/__column/footer__column-heading.css);
-@import url(../blocks/footer/__column/footer__column-links.css);
-@import url(../blocks/footer/__column/footer__column-link.css);
-@import url(../blocks/footer/__social/footer__social-icon.css);
+
+
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+
+
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 

@@ -1,9 +1,9 @@
 .feynman{
-    position: relative;
-    height: 890px;
-    background: #f2f2f2 url(/images/feynman.png) bottom left;
-    background-repeat:no-repeat;
-    left: 0px;
-    bottom: 0px;
-    z-index: 1;
-  }
+  position: relative;
+  min-height: 890px;
+  background: #f2f2f2 url(../../images/feynman.png) bottom left;
+  background-repeat:no-repeat;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
