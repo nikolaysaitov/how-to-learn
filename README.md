@@ -20,9 +20,7 @@
 
 ## Используемые программы:
 - VSCode
-- GitHub Desktop
-- CodePen
-- Validation Servise
+- Git
+- 
 
-
-## [ПРОЕКТ:How to Learn](https://nikolaysaitov.github.io/how-to-learn/)
+## [Ссылка на проект:How to Learn](https://nikolaysaitov.github.io/how-to-learn/)
